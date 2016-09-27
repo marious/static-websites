@@ -1,0 +1,9 @@
+
+@mixin generateRow ($numberOfItems, $margin, $width: 100%) {
+    width: (($width - ($margin * ($numberOfItems - 1) )) / $numberOfItems);
+    margin-right: $margin;
+
+    &:nth-child(#{$numberOfItems}n) {
+        margin-right: 0;
+    }
+}

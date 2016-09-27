@@ -1,0 +1,113 @@
+@import 'libs/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+$primary: #C83C27;
+
+
+@import 'logo.scss';
+@import 'nav.scss';
+@import 'footer.scss';
+
+.primary {
+	color: $primary;
+}
+
+.thumbnail a {
+	color: $primary;
+}
+
+
+// header form 
+header form {
+	float: right;
+	margin-top: 30px;
+	background: $primary;
+	padding: 15px;
+	color: #fff;
+	border-radius: 5px;
+
+	@media (max-width: 960px) {
+		width: 100% !important;
+	}
+}
+
+#products img {
+	width: 130px;
+	height: 130px;
+}
+
+// Jumbotron 
+.jumbotron {
+	overflow: auto;
+	padding: 0 !important;
+
+	p {
+		font-size: 15px;
+	}
+
+	.tablist {
+		float: left;
+		padding: 0;
+		margin: 0;
+		width: 30%;
+
+		li {
+			list-style: none;
+			color: #666;
+			background: #ccc;
+			padding: 15px 10px;
+			padding-left: 20px;
+			margin-bottom: 5px;
+			width: 100%;
+			font-size: 15px;
+
+			&.active {
+				background-color: $primary;
+
+				a {
+					color: #fff;
+					outline: none;
+				}
+			}
+		}
+
+		a {
+			color: #666;
+			display: block;
+			text-decoration: none;
+		}
+	}
+
+
+	.tab-content {
+		float: right;
+		width: 70%;
+		background: $primary;
+		color: #fff;
+		overflow: hidden;
+		height: 275px;
+		padding-top: 20px;
+
+		@media (max-width: 600px) {
+			height: 350px !important;
+		}
+	}
+}
+
+.slide-img {
+	float: right;
+	width: 50%;
+	@media (max-width: 768px) {
+		display: none;
+	}
+}
+
+.tab-text {
+	float: left;
+	width: 40%;
+	margin-left: 40px;
+	@media (max-width: 768px) {
+		float: none;
+		width: 80%;
+	}
+}
+

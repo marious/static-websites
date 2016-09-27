@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home - Clean &amp; Clear</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+    
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="nav-border"></div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo" alt="Clean and clear"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Innovate <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="innovate.html" title="">Learn</a></li>
+                            <li><a href="innovate.html" title="">Create</a></li>
+                            <li><a href="innovate.html" title="">Teach</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    <li class="login"><a data-toggle="modal" href='#modal-login'>Login</a></li>
+                    <li class="register"><a data-toggle="modal" href='#modal-register'>Register</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- ./container -->
+    </nav>
+    
+    <!-- Login Modal -->
+    <div class="modal fade" id="modal-login">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Login Form</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> Remember me
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+               <button type="submit" class="btn btn-default">Sign in</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ./ Login Modal -->
+
+<!-- Register Modal -->
+ <div class="modal fade" id="modal-register">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Register Form</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Confirm Password</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword3" placeholder="Confirm Password">
+                    </div>
+                  </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+               <button type="submit" class="btn btn-default">Sign Up</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ./ Register Modal -->
+
+
+
+<!-- Grid here -->
+    <div class="container padding-top-30">
+            
+        <!-- Main Area -->
+        <div class="col-md-8">
+            <div class="well" id="about">
+                <h3>About Us</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tellus lacus, ullamcorper et scelerisque eleifend, porttitor consectetur risus. Duis consequat tortor quam, nec auctor magna lobortis quis. Vestibulum tincidunt volutpat nisi, vel sodales est vestibulum in. Maecenas porttitor, tellus sit amet ullamcorper mollis, arcu est dignissim odio, quis fringilla mauris lacus sit amet sapien. In posuere ac erat non sollicitudin. Maecenas ante nibh, imperdiet a nisl quis, semper rhoncus nisl. Phasellus porta adipiscing risus, sed pellentesque elit eleifend sed. Fusce scelerisque cursus sapien. Nullam feugiat sollicitudin diam, id tincidunt sem eleifend at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In aliquet scelerisque lectus nec imperdiet
+                </p>
+                <hr>
+                <h3>Teamwork</h3>
+                <img src="img/teamwork.jpg" alt="teamwork">
+
+                <!-- Tabs  -->
+
+                <!-- Tabs here-->
+                <div role="tabpanel">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="tab" role="tab" data-toggle="tab">What We Do</a></li>
+                    <li role="presentation"><a href="#team" aria-controls="tab" role="tab" data-toggle="tab">Meet The Team</a></li>
+                    <li role="presentation"><a href="#costs" aria-controls="tab" role="tab" data-toggle="tab">Costs</a></li>
+                    <li role="presentation"><a href="#terms" aria-controls="tab" role="tab" data-toggle="tab">Terms</a></li>
+                  </ul>
+                  <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            <p>
+                                Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+                            </p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="team">
+                            <p>
+                                Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+                            </p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="costs">
+                            <p>
+                                Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia.
+                            </p>
+                            <p>
+                                Vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
+                            </p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="terms">
+                            <p>
+                                Locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                <!-- ./tabs -->
+
+            </div><!-- ./well -->
+        </div><!-- ./col-md-8 -->
+
+            <!-- sidebar -->
+            <div class="col-md-4">
+                <div class="well grey-well">
+                    <h3>Quick Contact</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="">Name: </label>
+                            <input type="text" placeholder="Enter Name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Email Address: </label>
+                            <input type="text" placeholder="Enter Email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Message: </label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div><!-- ./well -->
+
+                <!-- panel accordion -->
+                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading blue-panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Collapsible Group Item #1
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Collapsible Group Item #2
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Collapsible Group Item #3
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                <div class="list-group red-list">
+                    <a href="#" class="list-group-item">Home</a>
+                    <a href="#" class="list-group-item active">About</a>
+                    <a href="#" class="list-group-item">Innovate</a>
+                    <a href="#" class="list-group-item">Blog</a>
+                    <a href="#" class="list-group-item">Contact Us</a>
+                </div>
+
+            </div><!-- ./col-md-4 -->
+
+        </div><!-- ./row -->
+    </div><!-- ./ container -->
+
+
+
+<footer>
+        Copyright &copy; 2016 Clear &amp; Clear
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $('#tooltip1, #tooltip2').tooltip('hide');
+</script>
+</body>
+</html>

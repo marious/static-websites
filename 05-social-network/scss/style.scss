@@ -1,0 +1,51 @@
+@import 'libs/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+@import 'vars.scss';
+@import 'header.scss';
+@import 'panel.scss';
+@import 'sidebar.scss';
+@import 'footer.scss';
+
+
+textarea {
+	resize: vertical;
+}
+
+.profile ul {
+	margin-top: 30px;
+	li {
+		list-style: none;
+		line-height: 1.9em;
+	}
+}
+
+.photos {
+	li {
+		list-style: none;
+		float: left;
+		margin: 25px;
+		width: 23%;
+	}
+
+	img {
+		width: 100%;
+	}
+}
+
+.members {
+	.member-row {
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+	img {
+		margin-bottom: 5px;
+	}
+}
+
+@media(min-width: 991px) {
+    .members p {
+        padding-top: 40px;
+    }
+}

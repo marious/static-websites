@@ -1,0 +1,49 @@
+// Style of sidebar
+#sidebar {
+	float: right;
+	width: 30%;
+
+	.search {
+		float: right;
+
+		input[type="search"] {
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			height: 20px;
+			width: 85%;
+			padding: 3px;
+			float: left;
+		}
+
+		input[type="image"] {
+			width: 10%;
+			float: right;
+		}
+	}
+
+	#sub-nav {
+		padding: 20px 0;
+
+		li {
+			font-size: 16px;
+			font-weight: bold;
+			padding: 5px 0;
+			border-bottom: 1px dotted #333;
+
+			a {
+				color: #333;
+
+				&:hover,
+				&:active {
+					color: $orangyColor;
+				}
+			}
+		}
+	}
+
+	.ad {
+		img {
+			width: 100%;
+		}
+	}
+}

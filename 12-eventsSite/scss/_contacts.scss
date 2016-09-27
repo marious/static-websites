@@ -1,0 +1,38 @@
+#contacts {
+	background: #525b64;
+	padding: 70px 0;
+
+	h3, h4 {
+		color: #fff;
+		margin: 0 0 25px;
+	}
+
+	h3 {
+		span {
+			font-weight: 700;
+		}
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	p {
+		color: #cdd0d2;
+	}
+
+	a, .contacts p {
+		font-weight: 500;
+		color: #2cc7c1;
+	}
+
+	.contacts p i {
+		margin-right: 10px;
+	}
+
+	.social {
+		img {
+			margin-right: 20px;
+		}
+	}
+}

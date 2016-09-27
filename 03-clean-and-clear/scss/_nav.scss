@@ -1,0 +1,31 @@
+// Nav style
+nav.navbar {
+	border-top: none;
+	margin-bottom: 0;
+}
+
+div.nav-border {
+	height: 5px;
+	background: $primaryColor;
+	margin-bottom: 1px;
+}
+
+li.login a:link,
+li.login a:visited {
+	outline: none;
+	background-color: $primaryColor;
+	color: $navLinkColor;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+
+li.register a:link,
+li.register a:visited {
+	background-color: $secondaryColor;
+	color: #fff !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background: #ccc;
+}

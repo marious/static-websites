@@ -1,0 +1,30 @@
+// General style
+
+a {
+	color: $dark;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

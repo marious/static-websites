@@ -1,0 +1,37 @@
+// landing page
+.intro {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+	text-align: center;
+	color: $light;
+	background: $dark url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+	background-size: cover;
+
+	@media (min-width: 767px) {
+		height: 100%;
+		padding: 0;
+
+		.brand-heading {
+			font-size: 100px;
+		}
+
+		.intro-text {
+			font-size: 25px;
+		}
+	}
+}
+
+.intro-body {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.brand-heading {
+	font-size: 40px;	
+}
+
+.intro-text {
+	font-size: 18px;
+}

@@ -1,0 +1,40 @@
+// Footer style
+
+footer#main-footer {
+	background: $footerBackground;
+	color: $footerColor;
+	min-height: 180px;
+	margin-top: 20px;
+	overflow: auto;
+
+	a {
+		color: $whiteColor;
+	}
+
+	.copy {
+		padding: 20px 0 0;
+	}
+
+	.footer-left {
+		float: left;
+		width: 30%;
+	}
+
+	.footer-right {
+		float: right;
+		width: 70%;
+	}
+
+	.footer-nav {
+		float: left;
+		font-size: 15px;
+		@include generateRow(3, 1%);
+		padding: 20px 0;
+
+		li {
+			padding: 5px 0;
+			border-bottom: 1px dotted #666;
+		}
+	}
+}
+

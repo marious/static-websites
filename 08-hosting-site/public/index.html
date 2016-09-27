@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>EDX Hsting</title>
+        <!-- fontawesome  CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/font-awesome.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">EDX Hosting</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="domains.html">Domains</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                       <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+
+
+    <!-- Login Modal  -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+       <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <h4 class="modal-title" id="myModalLabel">Login</h4>
+             </div>
+             <div class="modal-body">
+               <form>
+                 <div class="form-group">
+                   <label>Email address</label>
+                   <input type="email" class="form-control" placeholder="Enter Email">
+                 </div>
+                 <div class="form-group">
+                   <label>Password</label>
+                   <input type="password" class="form-control" placeholder="Enter Password">
+                 </div>
+
+               </form>
+             </div>
+             <div class="modal-footer">
+              <button type="submit" class="btn btn-default">Submit</button>
+             </div>
+           </div>
+         </div>
+       </div>
+
+
+
+        <!-- Carousel -->
+        <div id="my-carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img  alt="First slide" src="img/bg1.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h1>Affordable Web Hosting</h1>
+                                    <ul class="feature-list">
+                                        <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
+                                        <li><i class="fa fa-check"></i> FREE Domain Registration</li>
+                                        <li><i class="fa fa-check"></i> FREE Security Suite Security Suite/li>
+                                        <li><i class="fa fa-check"></i> FREE Site-Building Tools</li>
+                                        <li><i class="fa fa-check"></i> FREE Online Store</li>
+                                        <li><i class="fa fa-check"></i> FREE Search Engine & Marketing Credits</li>
+                                        <li><i class="fa fa-check"></i> GREEN! Powered by 100% wind energy</li>
+                                    </ul>
+                                    <p><a href="#" class="btn btn-primary">Sign Up Today</a></p>
+                                </div>
+                                <div class="col-md-5">
+                                    <img src="img/servers1.png" class="server-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img  alt="Second slide" src="img/bg2.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h1>24/7 Support</h1>
+                                    <p>
+                                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                    </p>
+                                    <p><a href="#" class="btn btn-primary">Sign Up Today</a></p>
+                                </div>
+                                <div class="col-md-5">
+                                    <img src="img/servers2.png" class="server-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                   <img  alt="Third slide" src="img/bg3.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h1>99.9% Uptime</h1>
+                                    <p>
+                                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                    </p>
+                                    <p><a href="#" class="btn btn-primary">Sign Up Today</a></p>
+                                </div>
+                                <div class="col-md-5">
+                                    <img src="img/servers3.png" class="server-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#my-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#my-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+
+        <section class="marketing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <i class="fa fa-user fa-5x fa-border"></i>
+                        <h2>24/7 Support</h2>
+                        <p>
+                            Our support techs are always standing by to help our clients. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor.
+                        </p>
+                        <p><a href="#" class="btn btn-default">View Details</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-wordpress fa-5x fa-border"></i>
+                        <h2>One-Click Installation</h2>
+                        <p>
+                           Install powerful web scripts with just one click. We offer over 50 scripts including Joomla, Wordpress, Drupal, shopping carts and more
+                        </p>
+                        <p><a href="#" class="btn btn-default">View Details</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-server fa-5x fa-border"></i>
+                        <h2>Daily Backups</h2>
+                        <p>
+                           Your entire server will be backed up multiple times everyday. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor.
+                        </p>
+                        <p><a href="#" class="btn btn-default">View Details</a></p>
+                    </div>
+                </div><!-- ./ row -->
+            </div><!-- ./ container -->
+        </section>
+
+        <section class="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel price panel-grey">
+                            <div class="panel-heading arrow-box text-center">
+                                <h3>Starter Plan</h3>
+                            </div><!-- panel-heading -->
+                            <div class="panel-body text-center">
+                                <p class="lead" style="font-size: 40px;"><strong>$3.99 / month</strong></p>
+                            </div>
+                            <ul class="list-group list-gropu-flush text-center">
+                                <li class="list-group-item">1 Free Domain</li>
+                                <li class="list-group-item">1GB Disk Space</li>
+                                <li class="list-group-item">10GB Bandwidth</li>
+                                <li class="list-group-item">5 Email Accounts</li>
+                            </ul>
+                            <div class="panel-footer">
+                                <a href="#" class="btn btn-primary btn-lg btn-block">Buy Now!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel price panel-grey">
+                            <div class="panel-heading arrow_box text-center">
+                                <h3>Simple Plan</h3>
+                            </div><!-- panel-heading -->
+                            <div class="panel-body text-center">
+                                <p class="lead" style="font-size: 40px;"><strong>$8.99 / month</strong></p>
+                            </div>
+                            <ul class="list-group list-gropu-flush text-center">
+                                <li class="list-group-item">1 Free Domain</li>
+                                <li class="list-group-item">5GB Disk Space</li>
+                                <li class="list-group-item">25GB Bandwidth</li>
+                                <li class="list-group-item">20 Email Accounts</li>
+                            </ul>
+                            <div class="panel-footer">
+                                <a href="#" class="btn btn-primary btn-lg btn-block">Buy Now!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel price panel-grey">
+                            <div class="panel-heading arrow-box text-center">
+                                <h3>Standard Plan</h3>
+                            </div><!-- panel-heading -->
+                            <div class="panel-body text-center">
+                                <p class="lead" style="font-size: 40px;"><strong>$12.99 / month</strong></p>
+                            </div>
+                            <ul class="list-group list-gropu-flush text-center">
+                                <li class="list-group-item">1 Free Domain</li>
+                                <li class="list-group-item">35GB Disk Space</li>
+                                <li class="list-group-item">50GB Bandwidth</li>
+                                <li class="list-group-item">Unlimited Email Accounts</li>
+                            </ul>
+                            <div class="panel-footer">
+                                <a href="#" class="btn btn-primary btn-lg btn-block">Buy Now!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel price panel-grey">
+                            <div class="panel-heading arrow-box text-center">
+                                <h3>Super Plan</h3>
+                            </div><!-- panel-heading -->
+                            <div class="panel-body text-center">
+                                <p class="lead" style="font-size: 40px;"><strong>$17.99 / month</strong></p>
+                            </div>
+                            <ul class="list-group list-gropu-flush text-center">
+                                <li class="list-group-item">2 Free Domains</li>
+                                <li class="list-group-item">80GB Disk Space</li>
+                                <li class="list-group-item">100GB Bandwidth</li>
+                                <li class="list-group-item">Unlimited Email Accounts</li>
+                            </ul>
+                            <div class="panel-footer">
+                                <a href="#" class="btn btn-primary btn-lg btn-block">Buy Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- ./ row -->
+            </div><!-- ./ container -->
+        </section>
+
+        <footer>
+            <div class="container">
+                <p class="pull-right"><a href="#">Back to Top</a></p>
+                <p>EDX Hosting &copy; 2015. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </div>
+        </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+#events {
+	padding: 90px 0;
+}
+
+.link {
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+.time {
+	background: #2cc7c1;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 500;
+	padding: 5px;
+	border-radius: 2px;
+	margin-right: 25px;
+}
+
+.collapse-link {
+	color: #747a84;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.collaspe-link:hover {
+	color: #747a84;
+}
+
+.collapse-state {
+	color: #2cc7c1;
+}
+
+.collapse p {
+	color: #999;
+}
+
+.tab-collapse {
+	margin-bottom: 20px;
+}
+
+.row-item {
+	margin-top: 100px;
+}
+
+.carousel-indicators {
+	left: 0;
+	bottom: 10px;
+	margin: 0;
+	margin-left: 20px;
+	width: auto;
+
+	li {
+		border: 1px solid #2cc7c1;
+		background: #fff;
+		width: 12px;
+		height: 12px;
+
+		&.active {
+			background: #2cc7c1;
+			height: 14px;
+			width: 14px;
+		}
+	}
+}
+

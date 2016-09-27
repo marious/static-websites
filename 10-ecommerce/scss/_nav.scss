@@ -1,0 +1,33 @@
+// Nav style
+
+.navbar {
+	margin: 30px 0 20px 0;
+	background: #0383c0 url(../img/navbar.png) repeat-x;
+	border: 1px solid #ccc;
+
+	@media (max-width: 960px) {
+		form  {
+			display: none;
+		}
+	}
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default a:hover {
+	background: none;
+	color: $primary !important;
+	font-weight: bold;
+
+	@media (max-width: 960px) {
+		color: #fff !important;
+	}
+}
+
+
+@media (max-width: 960px) {
+	.navbar-default .navbar-nav > li > a {
+		color: #fff !important;
+	}
+}

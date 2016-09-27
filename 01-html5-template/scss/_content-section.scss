@@ -1,0 +1,68 @@
+// Style of content section
+section#content {
+	width: 63%;
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 0 20px 20px 20px;
+
+	@media (max-width: 580px) {
+		float: none;
+		width: 86%;
+		margin-top: 20px;
+	}
+
+	article {
+		border-bottom: 1px dotted #ccc;
+		padding: 10px 0 20px 0;
+
+		.meta {
+			margin: 10px 0;
+			padding: 5px;
+			background: $dark;
+			color: $whiteColor;
+
+			span {
+				float: right;
+			}
+		}
+
+		img {
+			width: 100%;
+		}
+
+		a.readmore {
+			background-color: $lightGreyColor;
+			color: $blackColor;
+			width: 97%;
+			display: block;
+			text-align: center;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+
+			&:hover {
+				background-color: #ccc;
+			}
+		}
+	}
+
+
+	#comments {
+		margin-top: 20px;
+
+		.comment-left {
+			float: left;	
+			width: 8%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.comment-right {
+			float: right;
+			width: 91%;
+		}
+	}
+}

@@ -1,0 +1,59 @@
+header#main-header {
+	height: $baseHeaderHeight;
+	background: $dark;
+	overflow: hidden;
+	margin-bottom: 20px;
+
+	.branding {
+		float: left;
+		width: 50%;
+
+		h1 {
+			padding: 8px 0 0 70px;
+			margin: 0;
+			color: $whiteColor;
+		}
+
+		img {
+			position: absolute;
+			width: 60px;
+			height: auto;
+		}
+	}
+
+	// nav style
+	nav#main-nav {
+		float: right;
+		width: 50%;
+		padding-top: 12px;
+
+
+		ul {
+			float: right;
+
+		
+			li {
+				float: left;
+				padding: 3px 5px 0;
+				margin: 0 15px;
+				list-style: square;
+				font-size: 15px;
+				color: $whiteColor;
+				text-transform: uppercase;
+				font-weight: bold;
+
+				@media (max-width: 580px) {
+					margin: 0 5px;
+			       font-size: 13px;
+			       padding: 3px 3px 0 3px;
+			       list-style: none;
+				}
+
+				a {
+					color: $whiteColor;
+				}
+			}
+		}
+	}
+
+}

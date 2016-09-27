@@ -1,0 +1,8 @@
+$primaryColor: #f67f17;
+$secondaryColor: #764721;
+
+@mixin boxSizing ($type: 'border-box') {
+	-webkit-box-sizing: $type;
+	-moz-box-sizing: $type;
+	box-sizing: $type;
+}

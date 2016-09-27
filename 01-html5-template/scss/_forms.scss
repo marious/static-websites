@@ -1,0 +1,33 @@
+// style for forms 
+.comment-form {
+	margin-top: 20px;
+	padding: 5px 20px 10px 20px;
+	background: #333;
+	border-radius: 10px;
+	color: #fff;
+
+	input[type="text"],
+	input[type="email"] {
+		@extend %formStyle;
+	}
+
+	textarea {
+		@extend %textAreaStyle;
+	}
+}
+
+.add-post-form {
+	input[type="text"],
+	select {
+		@extend %formStyle;
+	}
+
+	select {
+		height: 30px;
+		width: 98%;
+	}
+
+	textarea {
+		@extend %textAreaStyle;
+	}
+}

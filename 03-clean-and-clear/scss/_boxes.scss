@@ -1,0 +1,47 @@
+// boxes style
+.box {
+	color: #fff;
+	height: 233px;
+	overflow: auto;
+	padding: 0 10px;
+	font-size: 120%;
+
+	a.readmore:link,
+	a.readmore:visited {
+		position: absolute;
+		bottom: 15px;
+		left: 30px;
+		padding: 10px 15px;
+		color: #fff;
+		text-decoration: none;
+	}
+	
+}
+
+
+
+.bluebox {
+	background: $secondaryColor;
+
+	a.readmore {
+		background: #2B8CBC;
+
+		&:hover {
+			background: #20749d;
+			text-decoration: underline;
+		}
+	}
+}
+
+.redbox {
+	background: $primaryColor;
+
+	a.readmore {
+		background: #BF1E26;
+
+		&:hover {
+			background: #86161b;
+			text-decoration: underline;
+		}
+	}
+}

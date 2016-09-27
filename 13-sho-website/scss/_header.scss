@@ -1,0 +1,160 @@
+// Header style
+
+.menu-top {
+	
+	.container,
+	 .navbar-collapse {
+		padding-left: 0;
+	}
+
+	.navbar {
+		margin-bottom: 0;
+		background: #fff;
+		padding: 20px;
+		text-transform: uppercase;
+	}
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	transition: background 0.3s;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.navbar-default .navbar-nav > li > a.btn-red {
+	color: #fff;
+	padding: 5px 20px;
+	border-radius: 3px;
+
+	&:hover {
+		text-decoration: none;
+		background: #EC4835;
+	}
+
+	.glyphicon {
+		margin-right: 10px;
+		font-size: 17px;
+	}
+}
+
+.flag {
+	margin-right: 5px;
+	position: relative;
+	top: -1px;
+}
+
+.menu-carousel {
+	.item {
+		min-height: 600px;
+	}
+
+	.bgslide {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-size: cover;
+		background-position: center center;
+	}
+
+	.carousel-caption {
+		left: 0;
+		top: 170px;
+
+		h1 {
+			font-weight: 700;
+			font-size: 48px;
+		}
+
+		h3 {
+			font-size: 30px;
+			margin-bottom: 40px;
+		}
+
+		.btn-red {
+			padding: 20px 30px;
+			border-radius: 3px;
+			color: #fff;
+			text-decoration: none;
+			font-size: 24px;
+		}
+	}
+
+	.container {
+		position: relative;
+	}
+
+	.carousel-control {
+		z-index: 10;
+	}
+	
+}
+
+.carousel.fade {
+		opacity: 1;
+	}
+
+	.carousel.fade .item {
+		opacity: 0;
+		transition: opacity 0.5s;
+		display: block;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 0;		
+	}
+
+	.carousel.fade .item.active {
+		opacity: 1;
+		position: relative;
+		z-index: 2;
+	}
+
+.carousel-indicators-wrapper {
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		text-align: center;
+
+		.carousel-indicators {
+			margin-left: 0;
+			position: relative;
+			left: 0;
+			bottom: 0;
+			display: inline-block;
+			background: #FFF;
+			width: auto;
+			border: 1px solid #cfcfcf;
+			border-radius: 3px;
+			padding: 5px 25px;
+			bottom: -25px;
+
+			li {
+				background: #d2d2d2;
+				width: 10px;
+				height: 10px;
+				margin: 0 7px;
+
+				&.active {
+					background: #a3a3a3;
+
+				}
+
+				&:first-child {
+					margin-left: 0;
+				}
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+
+		}
+	}

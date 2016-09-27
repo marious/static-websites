@@ -1,0 +1,22 @@
+// Style of feature section
+section#feature {
+	background: #1caa98;
+	color: #fff;
+	padding: 40px;
+	overflow: auto;
+
+	ul {
+		padding: 0;
+		margin: 0;
+
+		li {
+			font-size: 22px;
+			list-style: none;
+			line-height: 2em;
+
+			@media(max-width: 500px) {
+				font-size: 19px;
+			}
+		}
+	}
+}

@@ -1,0 +1,127 @@
+// Speaker section
+
+#speakers {
+	padding: 90px 0;
+	border-bottom: 2px solid #f0f0f1;
+
+	h2 {
+		color: #828689;
+	}
+}
+
+.large {
+	color: #828689;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.section-tabs {
+	border: 3px solid #ececec;
+	border-radius: 2px;
+
+	.nav-tabs li:not(.active) {
+		background: #ececec;
+	}
+
+	.nav-tabs.nav-justified li a,
+	.nav-tabs.nav-justified li.active a,
+	.nav-tabs.nav-justified li.active a:focus,
+	.nav-tabs.nav-justified li.active a:hover {
+		border-radius: 0;
+		border: none;
+		font-family: ubuntu, sans-serif;
+		font-size: 18px;
+		font-weight: 700;
+		outline: 0;
+	}
+
+	.nav-tabs.nav-justified li.active a {
+		color: #9097a1;
+	}
+
+	.nav-tabs li a {
+		color: #abb1ba;
+	}
+
+	.tab-content {
+		padding: 25px 20px;
+
+		ul {
+			padding-left: 10px;
+
+			li {
+				line-height: 30px;
+
+				i {
+					font-size: 15px;
+					color: #2cc7c1;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}
+
+.speakers-head {
+	margin-top: 100px;
+	margin-bottom: 60px;
+
+	h2 {
+		color: #6a7079;
+	}
+
+	h3 {
+		color: #777a7d;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+}
+
+.item > div {
+	position: relative;
+}
+
+.front {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	cursor: pointer;
+	/* For IE */
+	left: 50%;
+	margin-left: -70px;
+}
+
+.back {
+	width: 140px;
+	height: 140px;
+	background: #6bd8d3;
+	display: inline-block;
+	border-radius: 50%;
+	opacity: 0;
+}
+
+.back i {
+	line-height: 140px;
+	font-size: 30px;
+	color: #fff;
+}
+
+.item > div:hover .front {
+	opacity: 0.2;
+}
+
+.item > div:hover .back {
+	opacity: 1;
+}
+
+.item > div:hover h3 {
+	color: #6bd8d3;
+}
+
+.speakers-footer {
+	margin-top: 70px;
+}
+
+.speakers-footer {
+	margin-top: 70px;
+}

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Double Social Network</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="img/logo.png" alt="Double Social Network" class="logo">
+            <form class="form-inline">
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-default">Sign In</button>
+                <br>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Remember me
+                    </label>
+                </div>
+            </form>
+        </div><!-- ./container -->
+    </header>
+
+    <!-- Nav -->
+     <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="groups.html">Groups</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- ./ cotainer -->
+    </nav>
+    <!-- End Nav -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Wall</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Write on the wall"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                                <div class="pull-right">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Text</button>
+                                        <button type="button" class="btn btn-default"><i class="fa fa-file-image-o"></i> Image</button>
+                                        <button type="button" class="btn btn-default"><i class="fa fa-file-video-o"></i> Vedio</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div><!-- ./panel -->
+
+                    <div class="panel panel-default post">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <a href="profile.html" class="post-avatar thumbnail">
+                                        <img src="img/user.png" alt="">
+                                        <div class="text-center">DevUser1</div>
+                                    </a>
+                                    <div class="likex text-center">7 Likes</div>
+                                </div><!-- ./col-sm-2 -->
+                                <div class="col-sm-10">
+                                    <div class="bubble">
+                                        <div class="pointer">
+                                            <p>
+                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt eget ante eget feugiat. Praesent adipiscing tortor eu tincidunt tempus. Sed convallis est in ante sodales, sit amet consectetur leo commodo.
+                                            </p>
+                                        </div><!-- ./pointer -->
+                                        <div class="pointer-border"></div>
+                                    </div><!-- ./bubble -->
+                                    <p class="post-actions">
+                                        <a href="#">Comment</a> - <a href="#">Like </a> - 
+                                        <a href="#">Follow</a> - <a href="#">Share </a>
+                                    </p>
+                                    <div class="comment-form">
+                                        <form action="" class="form-inline">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Enter Comment">
+                                            </div>
+                                            <button class="btn btn-default" type="submit">Add</button>
+                                        </form>
+                                    </div><!-- ./comment-form -->
+                                    <div class="clearfix"></div>
+
+                                    <div class="comments">
+                                        <div class="comment">
+                                            <a href="#" class="comment-avatar pull-left">
+                                                <img src="img/user.png" alt="">
+                                            </a>
+                                            <div class="comment-text">
+                                                <p>Sed convallis est in ante sodales, sit amet consectetur leo commodo.</p>
+                                            </div>
+                                        </div><!-- ./comment -->
+                                        <div class="clearfix"></div>
+
+                                         <div class="comment">
+                                            <a href="#" class="comment-avatar pull-left">
+                                                <img src="img/user.png" alt="">
+                                            </a>
+                                            <div class="comment-text">
+                                                <p>Sed convallis est in ante sodales, sit amet consectetur leo commodo.</p>
+                                            </div>
+                                        </div><!-- ./comment -->
+                                        <div class="clearfix"></div>
+
+                                    </div><!-- ./ comments -->
+
+                                </div><!-- ./col-sm-10 -->
+                            </div><!-- ./ row -->
+                        </div><!-- ./ panel-body -->
+                    </div><!-- ./ post -->
+
+                    <div class="panel panel-default post">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <a href="profile.html" class="post-avatar thumbnail">
+                                        <img src="img/user.png" alt="">
+                                        <div class="text-center">DevUser2</div>
+                                    </a>
+                                    <div class="likex text-center">7 Likes</div>
+                                </div><!-- ./col-sm-2 -->
+                                <div class="col-sm-10">
+                                    <div class="bubble">
+                                        <div class="pointer">
+                                            <p>
+                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt eget ante eget feugiat. Praesent adipiscing tortor eu tincidunt tempus. Sed convallis est in ante sodales, sit amet consectetur leo commodo.
+                                            </p>
+                                        </div><!-- ./pointer -->
+                                        <div class="pointer-border"></div>
+                                    </div><!-- ./bubble -->
+                                    <p class="post-actions">
+                                        <a href="#">Comment</a> - <a href="#">Like </a> - 
+                                        <a href="#">Follow</a> - <a href="#">Share </a>
+                                    </p>
+                                    <div class="comment-form">
+                                        <form action="" class="form-inline">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Enter Comment">
+                                            </div>
+                                            <button class="btn btn-default" type="submit">Add</button>
+                                        </form>
+                                    </div><!-- ./comment-form -->
+                                    <div class="clearfix"></div>
+
+                                    <div class="comments">
+                                        <div class="comment">
+                                            <a href="#" class="comment-avatar pull-left">
+                                                <img src="img/user.png" alt="">
+                                            </a>
+                                            <div class="comment-text">
+                                                <p>Sed convallis est in ante sodales, sit amet consectetur leo commodo.</p>
+                                            </div>
+                                        </div><!-- ./comment -->
+                                        <div class="clearfix"></div>
+
+                                    </div><!-- ./ comments -->
+
+                                </div><!-- ./col-sm-10 -->
+                            </div><!-- ./ row -->
+                        </div><!-- ./ panel-body -->
+                    </div><!-- ./ post -->
+
+                    <div class="panel panel-default post">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <a href="profile.html" class="post-avatar thumbnail">
+                                        <img src="img/user.png" alt="">
+                                        <div class="text-center">DevUser3</div>
+                                    </a>
+                                    <div class="likex text-center">7 Likes</div>
+                                </div><!-- ./col-sm-2 -->
+                                <div class="col-sm-10">
+                                    <div class="bubble">
+                                        <div class="pointer">
+                                            <p>
+                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt eget ante eget feugiat. Praesent adipiscing tortor eu tincidunt tempus. Sed convallis est in ante sodales, sit amet consectetur leo commodo.
+                                            </p>
+                                        </div><!-- ./pointer -->
+                                        <div class="pointer-border"></div>
+                                    </div><!-- ./bubble -->
+                                    <p class="post-actions">
+                                        <a href="#">Comment</a> - <a href="#">Like </a> - 
+                                        <a href="#">Follow</a> - <a href="#">Share </a>
+                                    </p>
+                                    <div class="comment-form">
+                                        <form action="" class="form-inline">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Enter Comment">
+                                            </div>
+                                            <button class="btn btn-default" type="submit">Add</button>
+                                        </form>
+                                    </div><!-- ./comment-form -->
+                                    <div class="clearfix"></div>
+
+                                    <div class="comments">
+                                        <div class="comment">
+                                            <a href="#" class="comment-avatar pull-left">
+                                                <img src="img/user.png" alt="">
+                                            </a>
+                                            <div class="comment-text">
+                                                <p>Sed convallis est in ante sodales, sit amet consectetur leo commodo.</p>
+                                            </div>
+                                        </div><!-- ./comment -->
+                                        <div class="clearfix"></div>
+
+                                         <div class="comment">
+                                            <a href="#" class="comment-avatar pull-left">
+                                                <img src="img/user.png" alt="">
+                                            </a>
+                                            <div class="comment-text">
+                                                <p>Sed convallis est in ante sodales, sit amet consectetur leo commodo.</p>
+                                            </div>
+                                        </div><!-- ./comment -->
+                                        <div class="clearfix"></div>
+
+                                    </div><!-- ./ comments -->
+
+                                </div><!-- ./col-sm-10 -->
+                            </div><!-- ./ row -->
+                        </div><!-- ./ panel-body -->
+                    </div><!-- ./ post -->
+
+                </div><!-- ./ col-md-8 -->
+
+                <div class="col-md-4">
+                    <div class="panel panel-default friends">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">My Friends</h3>
+                        </div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li><a href="profile.html" class="thumbnail"><img src="img/user.png"></a></li>
+                                    <li><a href="profile.html" class="thumbnail"><img src="img/user.png"></a></li>
+                                    <li><a href="profile.html" class="thumbnail"><img src="img/user.png"></a></li>
+                                    <li><a href="profile.html" class="thumbnail"><img src="img/user.png"></a></li>
+                                    <li><a href="profile.html" class="thumbnail"><img src="img/user.png"></a></li>
+                                    <li><a href="profile.html" class="thumbnail"><img src="img/user.png"></a></li>
+                                    <li><a href="profile.html" class="thumbnail"><img src="img/user.png"></a></li>
+                                    <li><a href="profile.html" class="thumbnail"><img src="img/user.png"></a></li>
+                                    <li><a href="profile.html" class="thumbnail"><img src="img/user.png"></a></li>
+                                    <li><a href="profile.html" class="thumbnail"><img src="img/user.png"></a></li>
+                                    <li><a href="profile.html" class="thumbnail"><img src="img/user.png"></a></li>
+                                    <li><a href="profile.html" class="thumbnail"><img src="img/user.png"></a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+                                <a href="#" class="btn btn-primary">View all friends</a>
+                            </div>
+                    </div><!-- ./ friends -->
+                
+                    <div class="panel panel-default groups">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Latest Groups</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="group-item clearfix">
+                                <img src="img/group.png">
+                                <h4><a href="#">Sample Group One</a></h4>
+                                <p>This is a Dobble social network sample group</p>
+                            </div>
+                             <div class="group-item clearfix">
+                                <img src="img/group.png">
+                                <h4><a href="#">Sample Group One</a></h4>
+                                <p>This is a Dobble social network sample group</p>
+                            </div>
+                             <div class="group-item clearfix">
+                                <img src="img/group.png">
+                                <h4><a href="#">Sample Group One</a></h4>
+                                <p>This is a Dobble social network sample group</p>
+                            </div>
+                            <div class="btn btn-primary">View All Groups</div>
+                        </div>
+                    </div>
+
+                </div><!-- ./col-md-4 -->
+
+            </div><!-- ./row -->
+        </div><!-- ./container -->
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Doubble Copyright &copy; 2016, All Rights Reserved</p>
+        </div>
+    </footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

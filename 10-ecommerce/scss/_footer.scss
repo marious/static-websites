@@ -1,0 +1,14 @@
+// footer style
+
+footer {
+	background: #f4f4f4;
+	text-align: center;
+	margin-top: 50px;
+	padding: 20px 0 10px 0;
+
+	p {
+		a {
+			color: $primary;
+		}
+	}
+}
