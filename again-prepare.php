@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Africa/Cairo');
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
     $again = $_POST['back_again'];
