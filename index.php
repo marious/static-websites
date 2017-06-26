@@ -1,7 +1,3 @@
-<?php
-echo date('g:i:s a, d-m-Y');exit;
-date_default_timezone_set('Africa/Cairo');
-?>
 <!doctype html>
 <html lang="en">
 <head>
